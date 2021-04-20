@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto 120px;
+    
+}
+
+title{
+    display: none;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 215px;
+    height: 60px;
+}
+
+header{
+    width:100%;
+    background-color: #1E1C21;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+    justify-content: center;
+   
+}
+
+.ContainerHeader{
+    width:1200px;
+    margin:auto 120px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linksMenu a{
+     height: 22px;
+     text-decoration: none;
+     color: white;
+     text-transform:uppercase;
+     font-family: 'Roboto', sans-serif;
+}
+
+.linksMenu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width:691px;
+}
+
+.banner{
+        height:542px;
+        background: linear-gradient(89.86deg, #2459D5 0.92%, #284791 9.17%, #14264F 22.57%, #0D1934 31.84%, #000000 46.28%, #000000 65.86%, #000000 84.42%, #000000 89.57%, #000000 99.88%);
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        top: 60px;
+        justify-content: center;
+}
+
+.imagem_banner1 img{
+    width:500px;
+    height:587px;
+    position: absolute;
+    margin-left: -485px;
+}
+
+.imagem_banner2 img {
+    width: 410px;
+    height: 430px;
+    margin-top: 80px;
+    margin-left: -50px;
+    
+}
+
+
+.botao{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 240px;
+    margin: 112px 114px 113px 825px;
+    position: absolute;
+    width: 404px;
+}
+
+.botao span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+} 
+
+h1{
+    color: white;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size:66px;
+    height: 96px;
+    
+}
+
+.CPA{
+
+    width: 205px;
+    height: 55px;
+    background-color: #2459D5;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 65px
+  
+    
+}
+
+.CPA a{
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size: 30px;
+}
+
+.parcerias{
+    background-color:black;
+    height: 122px;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+}
+
+.jogos{
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 120px;
+    width: 1200px;
+}
+
+.formula{
+    width: 152px;
+    height: 41px;
+}
+
+.lol{
+    width: 170px;
+    height: 64px;
+}
+
+.csgo{
+    width: 225px;
+    height: 70px;
+}
+
+.valorant{
+    width: 205px;
+    height: 28px
+}
+
+.fifa{
+    width: 130px;
+    height: 60px;
+}
+
+.sobre{
+    background: linear-gradient(0deg, rgba(221, 113, 13, 0.55), rgba(221, 113, 13, 0.55)), url(overwatch.jpg);
+    height: 500px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo{
+    width:215%;
+    left: -8px;
+    height: 400px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    transform: rotate(-2deg);
+    top: 687px;
+}
+
+.sobre img{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    top: 664px;
+    margin: auto auto auto 708px;
+    z-index:8;
+
+}
+
+.TextoSobre{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    top: 770px;
+    width: 597px;
+    height: 289px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.TextoSobre h2{
+    font-size: 40px;
+}
+
+.TextoSobre p{
+    font-size: 20px;
+}
+
+.partidas{
+    height: 122px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.partidas span{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform:uppercase;
+    font-size: 20px;
+    width: 50px;
+    font-weight: bolder;
+
+}
+
+.partidas nav{
+    margin: auto 120px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.partidas p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.partidas div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 225px;
+}
+
+.partidas hr{
+   
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    right: auto;
+}
+
+.noticias{
+    height: 800px;
+    background-color: #1E1C21;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.blocos_noticias{
+    
+    width: 800px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.blocos_noticia img{
+    width: 100%;
+    height:100px;
+}
+.blocos_noticias article{
+    display: flex;
+    flex-direction: column;
+    width: 195px;
+    background: linear-gradient(180deg, #C4C4C4 0%, #7C7C7C 0.01%, #434343 18.23%, #0D0D0D 57.81%, #000000 72.92%);
+    filter: drop-shadow(10px 10px 15px #000000);
+    height: 275px;
+}
+
+.blocos_noticias div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blocos_noticias h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin: 10px 13px
+}
+
+.blocos_noticias p{
+    color: white;
+    margin: auto 13px 14px 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloco_partidas{
+    height: 635px;
+    width: 195px;
+    background: linear-gradient(180deg, #0B2D7C 0%, rgba(11, 45, 124, 0) 100%);   
+    box-shadow: 10px 10px 15px #000000;
+}
+
+.secao_noticias{
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    width: 1200px;
+    margin: auto 120px;
+}
+
+.blocos_noticias h2{
+    margin-bottom: -70px;
+}
+
+.box_partidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 680px;
+}
+
+.noticias h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.bloco_partidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bloco_partidas p{
+    justify-content: center;
+    display: flex;
+    color: white;
+    text-transform:uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloco_partidas div{
+    
+    align-items: center;
+    width: 155px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 20px 5px 20px;
+}
+
+.bloco_partidas img{
+    width: 30px;
+    height: 30px;
+}
+
+.outros_jogos{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto 120px;
+    align-items: center;
+    width: 1200px;
+    
+}
+
+.links_rodape ul{
+    list-style-type: disc;
+    margin: auto 15px;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.links_rodape a{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+.links_rodape span{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+
+}
+
+.links_rodape{
+    height: 60%;
+    width: 183px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.rodape img{
+    width: 200px;
+}
+
+.barra_de_cadastro{
+    height:100%;
+    width: 175px;
+}
+
+.newsletter{
+    height: 29px;
+    width: 268px;
+}
+
+.cadastrar{
+    height: 100%;
+    background-color: #E1A32A;
+    width: 33%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+}
+
+.news_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+}
+
+.news_footer span{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.RedesSociais{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.RedesSociais img{
+    width: 40px;
+    height: 40px;
+}
+
+.RedesSociais span{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 100%;
+   
+}
+
+@media(max-width: 420px){
+
+    .banner{
+        background: linear-gradient(156.39deg, #2459D5 1.6%, #284791 12.79%, #14264F 27.39%, #070E1D 42.43%, #000 62.19%, #000 101.83%);
+        height: 587px;
+    }
+
+    .imagem_banner1 img{
+        opacity: 0.5;
+        left: -60px;
+    }
+
+    .botao h1{
+        font-size: 59px;
+    }
+
+    .botao span{
+        font-size: 17px;
+    }
+
+    .botao{
+        margin: 143px 30px 143px 30px;
+        width: 360px;
+    }
+
+
+}
