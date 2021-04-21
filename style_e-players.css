@@ -510,9 +510,9 @@ footer {
    
 }
 
-/* Página de cadastro*/
+/* Página de cadastro de times*/
 .banner_cadastro{
-    height: 300px;
+    height: 340px;
     width: 100%;
     overflow: hidden;
     background: linear-gradient(0deg, rgba(87, 23, 137, 0.81), rgba(87, 23, 137, 0.81)), url(rocket.jpg) center;
@@ -522,36 +522,143 @@ footer {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
-    position: relative;
-    top: 60px;
+
 }
 
 .formulario{
     background-color: #1E1C21;
     width: 100%;
-    height: 500px;
+    height: 755px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.cadastro{
+    height: 585px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cadastro h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.lista_times{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 225px;
+    justify-content: space-between;
+}
+
 .times{
     width: 600px;
     height: 300px;
-    background: linear-gradient(180deg, #100F0F 0%, #6C6767 47.4%, #151414 100%);
+    background: linear-gradient(180deg, #100F0F 0%, #353232 51.56%, #100F0F 100%);
     box-shadow: 12px 12px 25px #000000;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
-
 .times div{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
+    justify-content: flex-start; 
+    margin: 0 50px;
+    width: 90%;
 }
 
+.altura{
+    height: 30px;
+}
+
+.largura{
+    width: 150px;
+}
+
+.times span{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.button{
+    background-color: #581C8A;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+.equipes{
+    width: 100%;
+    color: white;
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+
+}
+
+.equipes th{
+    background-color: black;
+    border-bottom: 2px solid white; 
+    height: 40px;
+
+}
+
+/* Página de cadastro de times*/
+
+
+
+/* Página de cadastro de jogadores*/
+.banner_cadastro2{
+    height: 340px;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(120, 89, 9, 0.69), rgba(120, 89, 9, 0.69)), url(scorpion.jpg) center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    background-position-y: -80px;
+}
+
+.times2{
+        height: 425px;
+
+}
+
+.formulario2{
+    height: 860px;
+}
+
+.cadastro2 {
+    height: 725px;
+}
+
+.button2{
+    background-color: #D09807;
+}
+
+.equipes2{
+    height:165px;
+}
 
 @media(max-width: 420px){
 
