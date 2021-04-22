@@ -34,6 +34,20 @@ body{
     height: 60px;
 }
 
+.cabecalho{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    border:none;
+    z-index: 99;
+}
+
+.frame_footer{
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
 header{
     width:100%;
     background-color: #1E1C21;
@@ -441,7 +455,7 @@ footer {
 
 .links_rodape{
     height: 60%;
-    width: 183px;
+    width: 150px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -509,6 +523,14 @@ footer {
     height: 100%;
    
 }
+
+.resp_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+}
+
+
 
 /* Página de cadastro de times*/
 .banner_cadastro{
@@ -610,6 +632,7 @@ footer {
     border: 2px solid white;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
+    border-spacing: 0px;
 
 }
 
@@ -617,8 +640,11 @@ footer {
     background-color: black;
     border-bottom: 2px solid white; 
     height: 40px;
+    
 
 }
+
+
 
 /* Página de cadastro de times*/
 
@@ -660,11 +686,35 @@ footer {
     height:165px;
 }
 
+.btn_menu{
+    display: none;
+}
+
+
+
+/* Página de cadastro de jogadores*/
+
 @media(max-width: 420px){
+
+    .frame_footer{
+        height: 407px;
+    }
 
     .banner{
         background: linear-gradient(156.39deg, #2459D5 1.6%, #284791 12.79%, #14264F 27.39%, #070E1D 42.43%, #000 62.19%, #000 101.83%);
         height: 587px;
+    }
+    .ContainerHeader {
+        margin: auto 37px;
+        justify-content: flex-start;
+
+    }
+
+    .btn_menu{
+        display: inline-block;
+        margin-right: 50px;
+        color: white;
+        font-size:30px;
     }
 
     .imagem_banner1 img{
@@ -685,5 +735,63 @@ footer {
         width: 360px;
     }
 
+    .margem_resp{
+        margin: 25px 0
+    }
 
+    footer{
+        height: auto;
+    }
+
+    .resp_footer{
+        align-items: center;
+    }
+
+    
+
+    .linksMenu{
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        margin-top: 240px;
+        background-color: #1E1C21;
+        height: 180px;
+        align-items: flex-start;
+    }
+
+    .linksMenu a{
+        margin: auto 37px;
+    }
+
+    .cabecalho{
+        height: 240px;
+    }
+
+/* Página de cadastro de jogadores*/
+
+    .cadastro{
+        width: 345px;
+    }
+
+    .cadastro2{
+        width: 345px;
+    }
+
+    .banner_cadastro2{
+        font-size: 22px;
+    }
+
+    .banner_cadastro2{
+        font-size: 22px;
+    }
+
+    .cadastro h2{
+        font-size: 22px;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
 }
