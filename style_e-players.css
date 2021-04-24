@@ -500,7 +500,7 @@ footer {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: bold;
-    margin-bottom: -20px;
+    margin-top: 20px;
 }
 
 .RedesSociais{
@@ -694,7 +694,7 @@ footer {
 
 /* Página de cadastro de jogadores*/
 
-@media(max-width: 420px){
+@media(max-width: 599px){
 
     .frame_footer{
         height: 407px;
@@ -719,7 +719,7 @@ footer {
 
     .imagem_banner1 img{
         opacity: 0.5;
-        left: -60px;
+        right: 60px;
     }
 
     .botao h1{
@@ -772,11 +772,12 @@ footer {
 /* Página de cadastro de jogadores*/
 
     .cadastro{
-        width: 345px;
+        width: 80%;
     }
 
     .cadastro2{
-        width: 345px;
+        width: 80%;
+    
     }
 
     .banner_cadastro2{
@@ -794,4 +795,58 @@ footer {
     .rodape{
         flex-direction: column;
     }
+}
+
+@media(min-width:600px){
+    @media(max-width:900px){
+    .logo{
+        width: 22%;
+        
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .rodape{
+        flex-direction: column;
+    }
+
+    .resp_footer{
+        align-items: center;
+        width: 90%;
+    }
+
+    .frame_footer{
+        height: 407px;
+    }
+
+    .margem_resp{
+        margin: 25px 0
+    }
+
+    .ContainerHeader{
+        margin: auto 5%;
+    }
+
+    .linksMenu{
+        width: 68%;
+        
+    }
+
+    .linksMenu a{
+        font-size: 71%;
+        height: 17px;
+    }
+
+    .cadastro{
+        width: 80%;
+    }
+
+    .cadastro2{
+        width: 80%;
+    
+    }
+
+}
 }
