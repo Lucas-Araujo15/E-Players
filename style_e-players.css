@@ -527,7 +527,7 @@ footer {
 .resp_footer{
     display: flex;
     justify-content: space-between;
-    width: 325px;
+    width: 294px;
 }
 
 
@@ -608,7 +608,7 @@ footer {
     width: 150px;
 }
 
-.times span{
+.times label{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
@@ -694,10 +694,19 @@ footer {
 
 /* Página de cadastro de jogadores*/
 
-@media(max-width: 599px){
 
+
+
+
+@media(max-width: 599px){
+    
     .frame_footer{
         height: 407px;
+    }
+
+    .banner_cadastro h1{
+        width: 200px;
+        text-align: center;
     }
 
     .banner{
@@ -710,6 +719,10 @@ footer {
 
     }
 
+    .banner_cadastro2 h1{
+        width: 200px;
+        text-align: center;
+    }
     .btn_menu{
         display: inline-block;
         margin-right: 50px;
@@ -784,9 +797,6 @@ footer {
         font-size: 22px;
     }
 
-    .banner_cadastro2{
-        font-size: 22px;
-    }
 
     .cadastro h2{
         font-size: 22px;
@@ -798,7 +808,7 @@ footer {
 }
 
 @media(min-width:600px){
-    @media(max-width:900px){
+    @media(max-width:1190px){
     .logo{
         width: 22%;
         
