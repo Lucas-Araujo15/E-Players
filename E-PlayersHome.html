@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<script src="https://kit.fontawesome.com/c48f96fb5c.js" crossorigin="anonymous"></script>
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +14,7 @@
 <body>
 
     <iframe class="cabecalho" src="Header.html" frameborder="0"></iframe>
-   
+
     <main>
         <section id="inicio" class="banner">
             <nav class="container">
@@ -32,12 +33,17 @@
         </section>
         <section class="parcerias">
 
-            <div class="jogos">
+            <i class="fas fa-chevron-left" onclick="botaoJogosL()"></i>
+            <i class="fas fa-chevron-right" onclick="botaoJogosR()"></i>
+
+            <div id="logos" class="jogos">
+
                 <img class="formula" src="formula-1-logo.png" alt="Logo da Formula 1">
                 <img class="lol" src="logo-lol.png" alt="Logo do jogo League Of Legends">
                 <img class="csgo" src="Counter-Strike-Logo.png" alt="Logo do jogo Counter Strike">
                 <img class="valorant" src="valorant-logo.png" alt="Logo do jogo Valorant">
                 <img class="fifa" src="FIFA_logo.png" alt="Logo do jogo FIFA">
+
             </div>
             </nav>
         </section>
@@ -226,3 +232,27 @@
     </main>
 
 </body>
+
+<script>
+    function botaoJogosL() {
+
+        var menu = document.getElementById("logos")
+        var style = document.style;
+
+        document.addEventListener('click', function (ev) {
+            menu.style.transform += 'translateX(' + (ev.clientX - 25) + 'px)';
+        }, false);
+    }
+</script>
+
+<script>
+    function botaoJogosR() {
+
+        var menu = document.getElementById("logos")
+        var style = document.style;
+
+        document.addEventListener('click', function (ev) {
+            menu.style.transform = 'translateX(' + (ev.clientX -25) + 'px)';
+        }, false);
+    }
+</script>

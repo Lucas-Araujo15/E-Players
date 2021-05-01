@@ -690,7 +690,20 @@ footer {
     display: none;
 }
 
+.fa-chevron-right{
+    color: white;
+    position: relative;
+    left: 612px;
+    display: none;
 
+}
+
+.fa-chevron-left{
+    color: white;
+    position: relative;
+    left: 612px;
+    display: none;
+}
 
 /* Página de cadastro de jogadores*/
 
@@ -702,6 +715,25 @@ footer {
     
     .frame_footer{
         height: 407px;
+    }
+
+
+    .fa-chevron-right{
+        display: inline-block;
+        color: white;
+        position: absolute;
+        left: 367px;
+        top: 640px;
+        z-index: 99;
+    }
+    
+    .fa-chevron-left{
+        display: inline-block;
+        color: white;
+        position: absolute;
+        left:45px;
+        top: 640px;
+        z-index: 99;
     }
 
     .banner_cadastro h1{
@@ -730,22 +762,39 @@ footer {
         font-size:30px;
     }
 
-    .imagem_banner1 img{
-        opacity: 0.5;
-        right: 60px;
+    .imagem_banner1 {
+        width: 0;
+        opacity: 0.3;
+    }
+
+    .CPA{
+        margin-top: 51px;
+        width: 161px;
+        height: 52px;
+    }
+
+    .CPA a{
+        font-size: 24px;
+    }
+    
+
+    .jogos img{
+        margin: 8%;
     }
 
     .botao h1{
-        font-size: 59px;
+        font-size: 55px;
     }
 
     .botao span{
-        font-size: 17px;
+        font-size: 14px;
     }
 
     .botao{
-        margin: 143px 30px 143px 30px;
+        margin: 30px 30px;
         width: 360px;
+        opacity: 0.9;
+        height: 227px;
     }
 
     .margem_resp{
