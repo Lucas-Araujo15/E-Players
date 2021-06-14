@@ -195,7 +195,7 @@ header{
 }
 
 .sobre{
-    background: linear-gradient(0deg, rgba(221, 113, 13, 0.55), rgba(221, 113, 13, 0.55)), url(overwatch.jpg);
+    background: linear-gradient(0deg, rgba(221, 113, 13, 0.55), rgba(221, 113, 13, 0.55)), url(assets/overwatch.jpg);
     height: 500px;
     background-size: 100%;
     display: flex;
@@ -537,7 +537,7 @@ footer {
     height: 340px;
     width: 100%;
     overflow: hidden;
-    background: linear-gradient(0deg, rgba(87, 23, 137, 0.81), rgba(87, 23, 137, 0.81)), url(rocket.jpg) center;
+    background: linear-gradient(0deg, rgba(87, 23, 137, 0.81), rgba(87, 23, 137, 0.81)), url(assets/rocket.jpg) center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -655,7 +655,7 @@ footer {
     height: 340px;
     width: 100%;
     overflow: hidden;
-    background: linear-gradient(0deg, rgba(120, 89, 9, 0.69), rgba(120, 89, 9, 0.69)), url(scorpion.jpg) center;
+    background: linear-gradient(0deg, rgba(120, 89, 9, 0.69), rgba(120, 89, 9, 0.69)), url(assets/scorpion.jpg) center;
     display: flex;
     align-items: center;
     justify-content: center;
